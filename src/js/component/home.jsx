@@ -1,9 +1,8 @@
 import React from "react";
-
-//include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import "../../styles/index.css";
+import "../icons";
 
-//create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
@@ -23,4 +22,10 @@ const Home = () => {
 	);
 };
 
-export default Home;
+/*
+<div className="clock">
+	<i className="fa fa-clock"></i>
+</div>
+*/
+
+export default SimpleCounter;
