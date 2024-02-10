@@ -111,7 +111,7 @@ let test2 = setInterval(function () {
 }, 1000);
 
 
-//Stop Counter
+//Stop buttons
 function StopCounter1() {
 	clearInterval(test1);
 }
@@ -120,7 +120,7 @@ function StopCounter2() {
 	clearInterval(test2);
 }
 
-//Resume Counter
+//Resume buttons
 function ResumeCounter1() {
 	test1 = setInterval(function () {
 		counter++;
@@ -133,7 +133,7 @@ function ResumeCounter2() {
 	}, 1000);
 }
 
-// Reset Counter
+// Reset buttons
 function ResetCounter1() {
 	counter = minCounter;
 }
